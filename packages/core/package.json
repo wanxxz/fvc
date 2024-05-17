@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "name": "@fvc/core",
+  "version": "0.0.1",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "test": "uvu"
+  },
+  "dependencies": {
+    "@casl/ability": "^6.7.0",
+    "@triplit/db": "^0.3.37",
+    "@types/chance": "^1.1.6",
+    "@types/lodash": "^4.14.202",
+    "chance": "^1.1.11",
+    "diary": "^0.4.3",
+    "fast-check": "^3.18.0",
+    "lodash": "^4.17.15",
+    "signal-polyfill": "^0.1.1",
+    "std-env": "^3.7.0",
+    "typescript": "^5.3.2",
+    "ulid": "^2.3.0",
+    "unstorage": "^1.10.2",
+    "uvu": "^0.5.6",
+    "zod": "^3.22.4"
+  }
+}
