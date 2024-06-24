@@ -19,14 +19,14 @@
     "@types/lodash": "^4.14.202",
     "chance": "^1.1.11",
     "diary": "^0.4.3",
-    "fast-check": "^3.18.0",
     "lodash": "^4.17.15",
-    "signal-polyfill": "^0.1.1",
-    "std-env": "^3.7.0",
-    "typescript": "^5.3.2",
-    "ulid": "^2.3.0",
-    "unstorage": "^1.10.2",
-    "uvu": "^0.5.6",
+    "nanoid": "^5.0.7",
+    "ruls": "^1.2.0",
     "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "fast-check": "^3.18.0",
+    "typescript": "^5.3.2",
+    "uvu": "^0.5.6"
   }
 }
