@@ -1,7 +1,7 @@
 import { env } from 'std-env'
 
-const { DEBUG = '*' } = env
+const {} = env
 
-const vars = { DEBUG }
+const vars = {}
 
-export { vars as vars }
+export { vars }

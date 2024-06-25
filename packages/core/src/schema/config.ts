@@ -1,7 +1,6 @@
 import { diary } from 'diary'
-import _ from 'lodash'
 import z from 'zod'
-import { fieldsets } from './fieldset/fieldsets'
+import { fieldsets } from './fieldsets'
 
 const log = diary('config:config')
 

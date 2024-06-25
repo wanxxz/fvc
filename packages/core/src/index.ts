@@ -1,5 +1,5 @@
 import { diary, enable } from 'diary'
-import { vars } from './variables'
+import { vars } from './vars'
 
 enable(vars.DEBUG)
 

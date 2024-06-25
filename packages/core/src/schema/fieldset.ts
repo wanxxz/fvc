@@ -1,5 +1,5 @@
 import z from 'zod'
-import { fields } from '../field/fields'
+import { fields } from './fields'
 
 const fieldset = z.object({
   id: z.string().ulid(),
