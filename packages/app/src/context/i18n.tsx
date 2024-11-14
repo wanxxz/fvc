@@ -1,6 +1,6 @@
-import { flatten, translator, type Flatten, type Translator } from '@solid-primitives/i18n'
-import { createContext, createResource, createSignal, type Accessor, type ParentProps, type Setter } from 'solid-js'
-import { en_US, type LocaleCode, type LocaleDict } from '../locales'
+import { flatten, translator, type Flatten, type Translator } from '@solid-primitives/i18n';
+import { createContext, createResource, createSignal, type Accessor, type ParentProps, type Setter } from 'solid-js';
+import { en_US, type LocaleCode, type LocaleDict } from '../locales';
 
 const I18nContext = createContext<[Accessor<LocaleCode>, { t: Translator<LocaleDict>; change: Setter<LocaleCode> }]>([
   undefined as never,
@@ -22,4 +22,4 @@ function I18nProvider(props: ParentProps<{ code: LocaleCode }>) {
   return <I18nContext.Provider value={[code, { t, change: setCode }]}>{props.children}</I18nContext.Provider>
 }
 
-export { I18nContext, I18nProvider }
+export { I18nContext, I18nProvider };

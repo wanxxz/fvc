@@ -1,14 +1,25 @@
 {
   "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "esModuleInterop": true,
     "jsx": "preserve",
     "jsxImportSource": "solid-js",
-    "lib": ["esnext", "dom", "dom.iterable"],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "module": "esnext",
     "moduleResolution": "bundler",
+    "noEmit": true,
+    "paths": {
+      "@fvc/api": ["../api/src/index.ts"]
+    },
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "strictNullChecks": true,
     "target": "esnext",
     "types": ["vinxi/types/client"]
   },
-  "extends": "../../tsconfig.json",
   "files": ["./src/types.d.ts"],
   "include": ["./src/**/*"]
 }

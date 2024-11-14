@@ -3,6 +3,4 @@ const en_US = {
   'http.500': 'Internal Server Error'
 }
 
-export { en_US }
-
-export default en_US
+export { en_US as default, en_US }

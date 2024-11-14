@@ -1,15 +1,22 @@
 {
   "compilerOptions": {
-    "composite": true,
-    "jsx": "preserve",
-    "jsxFactory": "h",
-    "jsxFragmentFactory": "Fragment",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "esModuleInterop": true,
     "lib": ["esnext", "webworker"],
     "module": "esnext",
     "moduleResolution": "bundler",
+    "noEmit": true,
+    "paths": {
+      "@fvc/core": ["../core/src/index.ts"]
+    },
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "strictNullChecks": true,
     "target": "esnext"
   },
-  "extends": "../../tsconfig.json",
   "files": ["./src/types.d.ts", "./.nitro/types/nitro.d.ts"],
   "include": ["./src/**/*"],
   "paths": {

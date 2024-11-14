@@ -1,12 +1,19 @@
 {
   "compilerOptions": {
-    "composite": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "esModuleInterop": true,
     "lib": ["esnext"],
-    "module": "nodenext",
+    "module": "esnext",
     "moduleResolution": "bundler",
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "strictNullChecks": true,
     "target": "esnext"
   },
-  "extends": "../../tsconfig.json",
   "files": ["./src/types.d.ts"],
   "include": ["./src/**/*"]
 }

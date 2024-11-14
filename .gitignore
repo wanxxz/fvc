@@ -2,12 +2,11 @@
 
 !.gitignore
 
+!.husky
 !packages
 
 !.editorconfig
-!.husky
 !.lintstagedrc
 !.prettierrc
 !README.md
 !package.json
-!tsconfig.json
